@@ -43,24 +43,7 @@ Preprocessing → Data Augmentation → Context Summarization → Tokenization �
 - Summarized context and speaker embeddings significantly boost performance.
 - DistilBERT provides faster inference while maintaining high accuracy compared to RoBERTa.
 
-## Folder Structure
-```
-├── data/
-│   ├── mustard/
-│   ├── news_headlines/
-│   ├── twitter/
-├── models/
-│   ├── roberta/
-│   ├── distilbert/
-├── preprocessing/
-│   ├── context_mapping.py
-│   ├── summarization.py
-│   ├── augmentation.py
-├── train.py
-├── evaluate.py
-├── requirements.txt
-└── README.md
-```
+
 
 ## Highlights
 - Achieved 99% sarcasm detection accuracy using summarized context and speaker information.
